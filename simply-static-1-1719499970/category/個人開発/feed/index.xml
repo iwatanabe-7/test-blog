@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>個人開発 &#8211; 情報系大学生の開発日記</title>
+	<atom:link href="/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
+	<lastBuildDate>Thu, 25 Jan 2024 21:01:54 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<item>
+		<title>個人開発「Imemo」の進捗</title>
+		<link>/2024%e5%b9%b4-1-23-%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%82%92%e6%95%b4%e3%81%88%e3%82%8b/</link>
+					<comments>/2024%e5%b9%b4-1-23-%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%82%92%e6%95%b4%e3%81%88%e3%82%8b/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Wed, 24 Jan 2024 16:55:42 +0000</pubDate>
+				<category><![CDATA[Imemo]]></category>
+		<category><![CDATA[Webサービス開発]]></category>
+		<category><![CDATA[個人開発]]></category>
+		<guid isPermaLink="false">/?p=187</guid>
+
+					<description><![CDATA[2024/1/23 ホーム・新規登録画面のレイアウト作成 今日の進捗 今日は、個人で開発している「Imemo」というWebサービスの、新規登録とHome画面のレイアウトを整えてみました。 上の画像のように、新規画面・ログ ... <a title="個人開発「Imemo」の進捗" class="read-more" href="/2024%e5%b9%b4-1-23-%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%82%92%e6%95%b4%e3%81%88%e3%82%8b/" aria-label="Read more about 個人開発「Imemo」の進捗">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">2024/1/23 ホーム・新規登録画面のレイアウト作成</h2>
+
+
+
+<h3 class="wp-block-heading">今日の進捗</h3>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="529" src="/wp-content/uploads/2024/01/image-1024x529.png" alt="" class="wp-image-188" style="width:422px;height:auto" srcset="/wp-content/uploads/2024/01/image-1024x529.png 1024w, /wp-content/uploads/2024/01/image-300x155.png 300w, /wp-content/uploads/2024/01/image-768x396.png 768w, /wp-content/uploads/2024/01/image-1536x793.png 1536w, /wp-content/uploads/2024/01/image.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-large is-resized"><img decoding="async" width="1024" height="526" src="/wp-content/uploads/2024/01/image-1-1024x526.png" alt="" class="wp-image-189" style="width:419px;height:auto" srcset="/wp-content/uploads/2024/01/image-1-1024x526.png 1024w, /wp-content/uploads/2024/01/image-1-300x154.png 300w, /wp-content/uploads/2024/01/image-1-768x394.png 768w, /wp-content/uploads/2024/01/image-1-1536x789.png 1536w, /wp-content/uploads/2024/01/image-1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</div>
+</div>
+
+
+
+<p>今日は、個人で開発している「Imemo」というWebサービスの、新規登録とHome画面のレイアウトを整えてみました。</p>
+
+
+
+<p>上の画像のように、新規画面・ログイン画面・ホーム画面しかできていないので、3つの画面のレイアウトを整えました。まだデザインや配色が決まっていないので早くFigmaなどを使って考えていきたい。</p>
+
+
+
+<p>フロント側は、html css bootstrap バックエンドは Rails を使用しています。</p>
+
+
+
+<h3 class="wp-block-heading">ホーム画面のレイアウト</h3>
+
+
+
+<p>今までは、ログインをしないとマンダラート機能が使えなかったのですが、ログインしていなくてもお試し程度に使ってみたい方向けに、ホーム画面にマンダラートを設置しました。</p>
+
+
+
+<p>「エンジニアはコードで語る」というので、下にコードを載せておきます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="530" src="/wp-content/uploads/2024/01/image-2-1024x530.png" alt="" class="wp-image-190" srcset="/wp-content/uploads/2024/01/image-2-1024x530.png 1024w, /wp-content/uploads/2024/01/image-2-300x155.png 300w, /wp-content/uploads/2024/01/image-2-768x397.png 768w, /wp-content/uploads/2024/01/image-2-1536x794.png 1536w, /wp-content/uploads/2024/01/image-2.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h4 class="wp-block-heading">index.html.erb (ホーム画面のマンダラートのコード)</h4>
+
+
+
+<pre class="wp-block-code has-small-font-size" style="border-width:14px"><code lang="ruby" class="language-ruby line-numbers">&lt;h3 class="mb-3"&gt;マンダラート機能&lt;/h3&gt;
+  &lt;div class="container-fluid center-block" style="max-width: 1000px;"&gt;
+    &lt;div class="row"&gt;
+      &lt;% range = 1..9 %&gt;
+      &lt;% range.each do |i| %&gt;
+        &lt;div class="col-sm-4 p-1"&gt;
+          &lt;div class="container-fluid"&gt;
+            &lt;div class="row"&gt;
+              &lt;% range.each do |j| %&gt;
+                &lt;div class="col-4 p-0"&gt;
+                  &lt;input type="text" class="cell" name="body&lt;%= i %&gt;&lt;%= j %&gt;" style="width:100%; height:60px;"&gt;
+                &lt;/div&gt;
+              &lt;% end %&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;% end %&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
+
+
+
+<h4 class="wp-block-heading">application.scss</h4>
+
+
+
+<pre class="wp-block-code"><code lang="css" class="language-css">
+@import "bootstrap";
+@import "font-awesome";
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  padding:0 1rem;
+}
+</code></pre>
+
+
+
+<p>全体的に中央ぞろえにしたかったので、このような設定にしました。また、ホーム画面とログイン画面などで、個別にSCSSを適応したかったので、app/assets/stylesheetsに、それそれの画面のＳＣＳＳのファイルを作り、読み込めるようにしました。</p>
+
+
+
+<p>詳しくは、以下のコミットに書いてあります。</p>
+
+
+
+<p><a href="https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6">https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6</a></p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">2024/1/24 テストコード・CI/CDを作成</h2>
+
+
+
+<h3 class="wp-block-heading">今日の進捗</h3>
+
+
+
+<p>今日は、テストコードとやらを書いた。　明日が期末テストなので、少ししかコードが書けなかった。</p>
+
+
+
+<p>システム開発において、テストコードとCI/CDは必ず使うので、ここいらで試しに使用してみようと考えた。</p>
+
+
+
+<p>テストコードは、rspecとfactory_botで作成し、試しにdeviseの認証ができているかを確認するコードを書いてみた。</p>
+
+
+
+<p>CI/CDは色々考えた結果、GitHub Actions を導入することにした。Circle CIの方がビルドが早いらしいが、Github Actions の方が管理がしやすいと理由から、導入した。</p>
+
+
+
+<p>導入方法は、以下のドキュメントを参考にした↓</p>
+
+
+
+<p>テストコード：　<a href="https://github.com/heartcombo/devise?tab=readme-ov-file#test-helpers" data-type="link" data-id="https://github.com/heartcombo/devise?tab=readme-ov-file#test-helpers">https://github.com/heartcombo/devise?tab=readme-ov-file#test-helpers</a></p>
+
+
+
+<p>GitHub Actions：<a href="https://docs.github.com/ja/actions/quickstart/" data-type="link" data-id="https://docs.github.com/ja/actions/quickstart/">https://docs.github.com/ja/actions/quickstart/</a></p>
+
+
+
+<p>とりあえず、rspecのお試しテストコードとActionsが導入できたので、今日は良しとする</p>
+
+
+
+<pre class="wp-block-code"><code lang="ruby" class="language-ruby">docker-compose exec web bundle exec rspec
+
+HomeHelper
+  add some examples to (or delete) /myapp/spec/helpers/home_helper_spec.rb (PENDING: Not yet implemented)
+
+User
+  User Registration
+    name, mail, password, password_confirmation registration
+
+Homes
+  GET /
+    returns http success
+
+home/index.html.erb
+  add some examples to (or delete) /myapp/spec/views/home/index.html.erb_spec.rb (PENDING: Not yet implemented)
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) HomeHelper add some examples to (or delete) /myapp/spec/helpers/home_helper_spec.rb
+     # Not yet implemented
+     # ./spec/helpers/home_helper_spec.rb:14
+
+  2) home/index.html.erb add some examples to (or delete) /myapp/spec/views/home/index.html.erb_spec.rb
+     # Not yet implemented
+     # ./spec/views/home/index.html.erb_spec.rb:4
+
+
+Finished in 5.12 seconds (files took 4.04 seconds to load)
+4 examples, 0 failures, 2 pending</code></pre>
+
+
+
+<h2 class="wp-block-heading">2024/01/26 GitHub Copilot を導入</h2>
+
+
+
+<p>テスト期間に開発をするものではないと、改めて思う。</p>
+
+
+
+<p>自分で考えるだけだと、限界がある＆時間が足りないので、便利なツールである GitHub Copilot というAIコーディングツールを導入してみることにした。学生だと無料で使えるほか、個人でも30日間の無料トライアルがあるため、試験的に導入してみるのもいいと思う。</p>
+
+
+
+<p>コードを書いているとコード保管をしてくれる機能を学生だと無料で使うことができるので、とても便利。</p>
+
+
+
+<figure class="wp-block-video"><video controls src="/wp-content/uploads/2024/01/名称未設定.mov"></video></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2024%e5%b9%b4-1-23-%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%82%92%e6%95%b4%e3%81%88%e3%82%8b/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="/wp-content/uploads/2024/01/名称未設定.mov" length="418185" type="video/quicktime" />
+
+			</item>
+		<item>
+		<title>グルメサーチAPIを使用したお店検索プログラム</title>
+		<link>/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/</link>
+					<comments>/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Thu, 12 Oct 2023 06:00:43 +0000</pubDate>
+				<category><![CDATA[制作物]]></category>
+		<guid isPermaLink="false">/?p=173</guid>
+
+					<description><![CDATA[概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人の ... <a title="グルメサーチAPIを使用したお店検索プログラム" class="read-more" href="/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/" aria-label="Read more about グルメサーチAPIを使用したお店検索プログラム">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">概要</h2>
+
+
+
+<p>大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム</p>
+
+
+
+<p>現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人のためのランダムでお店を選んでくれる機能もあります。</p>
+
+
+
+<h2 class="wp-block-heading">なぜ作ろうと思ったか</h2>
+
+
+
+<p>ランチや夕食を食べる店を決めるときに、時間がかかってしまう。 ご飯を食べようと思ったときに、すぐ決められるようなプログラムがあれば便利だと考えた。</p>
+
+
+
+<h2 class="wp-block-heading">機能</h2>
+
+
+
+<p>・現在地から近いお店を条件に合わせて検索できる</p>
+
+
+
+<p>・ランダムでお店を選んでくれる </p>
+
+
+
+<p>・金欠大学生のためのクーポン情報表示</p>
+
+
+
+<h2 class="wp-block-heading">使用した技術</h2>
+
+
+
+<ul>
+<li>Python 3.9.4</li>
+
+
+
+<li>API<br>ホットペッパーのグルメサーチAPI<br><a href="https://webservice.recruit.co.jp/doc/hotpepper/reference.html">https://webservice.recruit.co.jp/doc/hotpepper/reference.html</a><br>geolocationAPI<br><a href="https://developers.google.com/maps/documentation/geolocation/overview?hl=ja">https://developers.google.com/maps/documentation/geolocation/overview?hl=ja</a></li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">実際の画面</h2>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="550" src="/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1024x550.png" alt="" class="wp-image-174" srcset="/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1024x550.png 1024w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-300x161.png 300w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-768x413.png 768w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1536x825.png 1536w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-2048x1100.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://user-images.githubusercontent.com/83575309/268446279-12c9ba1b-f392-4941-8e06-63a0e303605e.png" alt=""/></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Railsチュートリアルを学んでいく</title>
+		<link>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/</link>
+					<comments>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Mon, 26 Dec 2022 14:03:43 +0000</pubDate>
+				<category><![CDATA[Railsチュートリアル]]></category>
+		<guid isPermaLink="false">/?p=76</guid>
+
+					<description><![CDATA[Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。 基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした 進捗 日付　　 学習したページ　　学習内容　　 ... <a title="Railsチュートリアルを学んでいく" class="read-more" href="/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルを学んでいく">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。</p>
+
+
+
+<p>基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした</p>
+
+
+
+<p></p>
+
+
+
+<p>進捗</p>
+
+
+
+<p>日付　　  学習したページ　　学習内容　　　　　　　　　　　勉強時間</p>
+
+
+
+<p>12/26　　第一章~2.2　　　　　　　　　　　　　　　　　　　3h</p>
+
+
+
+<p>12/28　　2.2~3.1の途中　　toyアプリケーションを作成した　　2h</p>
+
+
+
+<p>1/3　　　3.1~3.4　　　　　テストコードの勉強を行った　　　 ３ｈ</p>
+
+
+
+<p>1/4　　　3.4~4.2.2　　　　Webテキストを購入　　　　　　　３ｈ</p>
+
+
+
+<p>1/5　　　4.2.2~4.2.4　　　メソッドの定義の仕方　　　　　　 １ｈ</p>
+
+
+
+<p>1/7　　　4.2.2~4.4.2　　　クラスとかインスタンスとか　　　　1h</p>
+
+
+
+<p>1/8　　　4.4.2~5.1.1　　　継承とかクラスの定義の仕方とか　 １ｈ</p>
+
+
+
+<p>1/9　　　5.1.1~5.2.1　　　CSS パーシャル　　　　　　　　　2.5h</p>
+
+
+
+<p>1/13　　  5.2.1~5.3.1　　　SCSS CSSで変数を使う　　　　 　1h</p>
+
+
+
+<p>1/14　　  5.3.1~5.4.1 　　　統合テスト　　　　　　　　　　　　0.5h</p>
+
+
+
+<p>1/17　　  5.4.1~6　　　　　コントローラの理解　　　　　　　　1.5h</p>
+
+
+
+<p>1/19　　  6~6.1.1の途中　　データベースのマイグレーション　　  0.25h </p>
+
+
+
+<p>1/28　　  6.1.1~6.2.2　　　やっとテストが終わった　　　　　　  1h</p>
+
+
+
+<p>1/29　　  6.2.2~6.3 　　　　　　　　　　　　　　　　　　　 1h</p>
+
+
+
+<p>1/31　　  6.3~7.1.2　　　ハッシュ化を使用したパスワードのセキュア化 1h</p>
+
+
+
+<p>合計勉強時間：22.75h</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Railsチュートリアルの「JavaScript」を学んでいく</title>
+		<link>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/</link>
+					<comments>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Sun, 25 Dec 2022 14:42:17 +0000</pubDate>
+				<category><![CDATA[js]]></category>
+		<category><![CDATA[Railsチュートリアル]]></category>
+		<category><![CDATA[Webサービス開発]]></category>
+		<guid isPermaLink="false">/?p=68</guid>
+
+					<description><![CDATA[Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。 もともと、Web ... <a title="Railsチュートリアルの「JavaScript」を学んでいく" class="read-more" href="/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルの「JavaScript」を学んでいく">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。</p>
+
+
+
+<p>もともと、Webサービス開発も学習する予定だったので、ちょうどいい教材を友達から教えてもらったので、やろうと思いました。</p>
+
+
+
+<p></p>
+
+
+
+<p>進捗（随時更新していきます）</p>
+
+
+
+<p>12/25 第一章と第二章を学んだ　学習時間： 3時間くらい</p>
+
+
+
+<p>12/26 第三章を学んだ　学習時間： 1時間くらい　これ以降の章は公開されていなかった泣</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ボタンとタイトル画像を作成した</title>
+		<link>/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/</link>
+					<comments>/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Tue, 20 Dec 2022 08:15:41 +0000</pubDate>
+				<category><![CDATA[takoyakieatgame]]></category>
+		<guid isPermaLink="false">/?p=52</guid>
+
+					<description><![CDATA[今日の進捗 今日は を行いました。 main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であればGameover画面を表示するように設定し ... <a title="ボタンとタイトル画像を作成した" class="read-more" href="/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/" aria-label="Read more about ボタンとタイトル画像を作成した">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">今日の進捗</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/12/Untitled-1.png" alt="" class="wp-image-54" style="width:506px;height:638px" width="506" height="638" srcset="/wp-content/uploads/2022/12/Untitled-1.png 600w, /wp-content/uploads/2022/12/Untitled-1-238x300.png 238w" sizes="(max-width: 506px) 100vw, 506px" /></figure></div>
+
+
+<p>今日は</p>
+
+
+
+<ul>
+<li>ボタンやタイトルなどの画像の作成</li>
+
+
+
+<li>Gameover画面とClear画面の実装</li>
+</ul>
+
+
+
+<p>を行いました。</p>
+
+
+
+<p>main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であればGameover画面を表示するように設定しました。</p>
+
+
+
+<p>Clear画面では、スタート画面に戻る用のExitボタンを作りました。</p>
+
+
+
+<p>GameOver画面では、コンテができるようにしたかったので、「Continue?」と聞き、「Yes」か「No」でコンテするかどうかを選択できるようにしました。「Yes」ならゲーム画面へ、「No」ならタイトル画面に移ります。</p>
+
+
+
+<p>ExitボタンとNoボタンは処理が同じ(どちらもタイトル画面に戻る処理)なので、条件分岐を使って、画像と表示する位置をClearとGameOverの場合で変えて、表示しています。</p>
+
+
+
+<p>ボタンやタイトル画像の制作に時間を取られて、思った以上にコードを書く時間が少なかったので、もっと効率的に画像を作成できるツールはないかと模索中です(まず、デザインセンスがないので、そこも勉強する予定。どうすればいいのかわからない)。</p>
+
+
+
+<p>画像は</p>
+
+
+
+<p></p>
+
+
+
+<p>画像提供 サイト｜空想曲線</p>
+
+
+
+<p>ＵＲＬ｜<a href="https://kopacurve.blog.fc2.com/"></a><a href="https://kopacurve.blog.fc2.com/">https://kopacurve.blog.fc2.com/</a></p>
+
+
+
+<p></p>
+
+
+
+<p>から拝借しました。</p>
+
+
+
+<p>ボタンとタイトルの画像を作りたかったので、「Polarr」というツールを使って、画像に文字を加えたり、色合いを調節しました。「Polarr」はUIがわかりやすく使いやすかったです。ぜひ使ってみてください。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="501" src="/wp-content/uploads/2022/12/Untitled-2-1024x501.png" alt="" class="wp-image-55" srcset="/wp-content/uploads/2022/12/Untitled-2-1024x501.png 1024w, /wp-content/uploads/2022/12/Untitled-2-300x147.png 300w, /wp-content/uploads/2022/12/Untitled-2-768x376.png 768w, /wp-content/uploads/2022/12/Untitled-2-1536x752.png 1536w, /wp-content/uploads/2022/12/Untitled-2.png 1917w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>これからやっていきたいこと</strong></h2>
+
+
+
+<p><strong>• ボタンなどの画像の制作(デザインのセンスがないので勉強してからもう一回作成→タイトルがダサい( ´∀｀ ))</strong></p>
+
+
+
+<p><strong> • bgmの修正(画面をタップしないとbgmが再生されない、どういうこと？)</strong></p>
+
+
+
+<p><strong> • メニューボタン・メニュー画面の追加 • 必殺技ボタンの実装 </strong></p>
+
+
+
+<p><strong>• 同時に複数のたこ焼きを降らせるようにしたい</strong></p>
+
+
+
+<p>次はbgmの修正と同時に複数のたこ焼きを降らせられるようにしたいです。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>連想配列にしてみた</title>
+		<link>/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/</link>
+					<comments>/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Fri, 16 Dec 2022 14:41:50 +0000</pubDate>
+				<category><![CDATA[takoyakieatgame]]></category>
+		<guid isPermaLink="false">/?p=41</guid>
+
+					<description><![CDATA[今日やったこと ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。 とりあえず、いろいろ記事をあさっていて→ https://inwans.com/enchantjs-useful-tech ... <a title="連想配列にしてみた" class="read-more" href="/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/" aria-label="Read more about 連想配列にしてみた">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">今日やったこと</h2>
+
+
+
+<p>ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。</p>
+
+
+
+<p>とりあえず、いろいろ記事をあさっていて→ <a href="https://inwans.com/enchantjs-useful-techniques/" data-type="URL" data-id="https://inwans.com/enchantjs-useful-techniques/">https://inwans.com/enchantjs-useful-techniques/</a></p>
+
+
+
+<p>に書いてあった、連想配列を使ってbgmやら画像やらをまとめてpreloadできるようにした。</p>
+
+
+
+<p>bgmとかimgやらのパスをキーの値にして、まとめてASSETSにぶち込む</p>
+
+
+
+<p>そして、パスが入っているASSETSをまとめてpreloadする。実際にコードを見たほうがいいと思うので載せておきます。</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="468" height="507" src="/wp-content/uploads/2022/12/image-4.png" alt="" class="wp-image-58" srcset="/wp-content/uploads/2022/12/image-4.png 468w, /wp-content/uploads/2022/12/image-4-277x300.png 277w" sizes="(max-width: 468px) 100vw, 468px" /></figure>
+
+
+
+<p>やっぱり便利、連想配列！</p>
+
+
+
+<p>普通の配列は[]で囲むが、連想配列は{}で囲む。今回だと</p>
+
+
+
+<p>var ASSETS = {}</p>
+
+
+
+<p>でASSETSという名前のオブジェクト(連想配列)を作り、オブジェクトの中に</p>
+
+
+
+<p>キー：値　</p>
+
+
+
+<p>を書くことにより、要素を追加できる。</p>
+
+
+
+<p>こうすることで、ファイル名ではなくキーを使って画像やbgmを使うことができる</p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">参考にしたもの</h2>
+
+
+
+<ul>
+<li>https://techplay.jp/column/528</li>
+
+
+
+<li>https://inwans.com/enchantjs-useful-techniques/</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>今までやってたこと</title>
+		<link>/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/</link>
+					<comments>/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Fri, 16 Dec 2022 13:49:32 +0000</pubDate>
+				<category><![CDATA[takoyakieatgame]]></category>
+		<guid isPermaLink="false">/?p=18</guid>
+
+					<description><![CDATA[作ろうと思った経緯 友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。 大学では少しプログラミングをかじっているので、いいアウトプットになると思って、今回制作しました。 今回は以下のサ ... <a title="今までやってたこと" class="read-more" href="/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/" aria-label="Read more about 今までやってたこと">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">作ろうと思った経緯</h2>
+
+
+
+<p>友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。</p>
+
+
+
+<p>大学では少しプログラミングをかじっているので、いいアウトプットになると思って、今回制作しました。</p>
+
+
+
+<p>今回は以下のサイトを見ながらオリジナルのゲームを作っていこうと思います。</p>
+
+
+
+<p>参考記事(簡単にゲーム制作が学べるのでおすすめ、マジ感謝です)→&nbsp;<a href="https://hothukurou.com/blog/post-599">https://hothukurou.com/blog/post-599</a></p>
+
+
+
+<h2 class="wp-block-heading">ゲームの内容</h2>
+
+
+
+<p>たこ焼きが好きな私が、空からいろんな種類のたこ焼きが降ってきて食べれたらいいなぁということで、ゲーム化しました。</p>
+
+
+
+<p>たこ焼きが上から降ってくるので、それをタップして食べるゲームです。</p>
+
+
+
+<p>たこ焼きを食べるごとに難易度が上がっていき、全部残さず食べれたらClearです。</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/12/image.png" alt="" class="wp-image-20" style="width:251px;height:312px" width="251" height="312" srcset="/wp-content/uploads/2022/12/image.png 528w, /wp-content/uploads/2022/12/image-241x300.png 241w" sizes="(max-width: 251px) 100vw, 251px" /></figure>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/12/image-2.png" alt="" class="wp-image-23" style="width:247px;height:303px" width="247" height="303" srcset="/wp-content/uploads/2022/12/image-2.png 531w, /wp-content/uploads/2022/12/image-2-244x300.png 244w" sizes="(max-width: 247px) 100vw, 247px" /></figure>
+</div></div>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/12/image-3.png" alt="" class="wp-image-24" style="width:248px;height:306px" width="248" height="306" srcset="/wp-content/uploads/2022/12/image-3.png 528w, /wp-content/uploads/2022/12/image-3-243x300.png 243w" sizes="(max-width: 248px) 100vw, 248px" /></figure>
+
+
+
+<h2 class="wp-block-heading">今までやっていたこと</h2>
+
+
+
+<p>今までは、参考にしたwebサイトをじっくーり読んで、以下の機能を実装しました。</p>
+
+
+
+<ul>
+<li>レイアウトを整える(タイトルやGAMEOVERの文字などを整えた)</li>
+
+
+
+<li>背景やたこ焼きなどの画像やbgmを追加</li>
+
+
+
+<li>スタート画面とGameOver画面の追加/遷移ボタンの配置</li>
+</ul>
+
+
+
+<p>基本的なループなどはサイトを見ながら作りました(といってもほぼそのままでパラメータだけ変えて上から降ってくる感じにしました)。ほかにも背景画像やbgmなどは、ダウンロードして変数で扱えばいいので、すぐ実装できました。</p>
+
+
+
+<p>スタート画面は終了画面と同じく、Sceneオブジェクトのインスタンスを作り、それを画面に追加する形で実装をしました。</p>
+
+
+
+<p>終了画面からスタート画面に行くボタン、リスタートボタンを追加しようとした際に、そのままリトライボタンと同じくstate=0にしたまま、</p>
+
+
+
+<p>game.popScene(); game.pushScene(startScene);</p>
+
+
+
+<p>でスタート画面に戻ると裏でゲームが始まってしまい、スタート画面にいるのに、ゲームオーバーになってしまう現象が起きたので少し悩みました。</p>
+
+
+
+<p>game.onenterframeのところで</p>
+
+
+
+<p>state==0(start画面の状態、常にstate=0)とstate==0.1(main画面の状態、呼び出したらstate=1にする)</p>
+
+
+
+<p>で分けることによって、裏でゲームが実行されずに、スタート画面を表示することができました。</p>
+
+
+
+<pre class="wp-block-code"><code>//初期値(start画面)
+if (state == 0) {
+	takoyakiImg.x = 150;
+	takoyakiImg.y = -200;
+	point = 0;
+	<span style="--marker-custom-color:#ff6900" class="marker-custom">state = 0;</span>→ここの値を0にしないとゲームが実行されてしまう
+}
+//初期値(main画面)
+if (state == 0.1) {
+	takoyakiImg.x = 150;
+	takoyakiImg.y = -200;
+	point = 0;
+	<span style="--marker-custom-color:#ff6900" class="marker-custom">state = 1;</span>→main画面に移ったらstate=1にしてゲームが始まる
+}
+
+//リトライボタン
+retryBtn.ontouchend = function () {
+	state = 0.1;
+	game.assets&#91;buttonclickSndUrl].clone().play();
+	game.replaceScene(mainScene);
+};
+
+//リスタートボタン
+tweetBtn.ontouchend = function () {
+	state = 0;
+	game.assets&#91;buttonclickSndUrl].clone().play();
+	game.popScene();
+	game.pushScene(startScene);
+};
+		</code></pre>
+
+
+
+<h2 class="wp-block-heading">これからやっていきたいこと</h2>
+
+
+
+<ul>
+<li>ボタンなどの画像の制作</li>
+
+
+
+<li>bgmの修正(画面をタップしないとbgmが再生されない、どういうこと？)</li>
+
+
+
+<li>メニューボタン・メニュー画面の追加</li>
+
+
+
+<li>必殺技ボタンの実装</li>
+
+
+
+<li>同時に複数のたこ焼きを降らせるようにしたい</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

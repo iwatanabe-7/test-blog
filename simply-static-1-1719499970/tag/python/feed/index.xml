@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>python &#8211; 情報系大学生の開発日記</title>
+	<atom:link href="/tag/python/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
+	<lastBuildDate>Thu, 12 Oct 2023 05:50:17 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<item>
+		<title>カメラキャリブレーションとは</title>
+		<link>/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/</link>
+					<comments>/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Thu, 12 Oct 2023 05:42:32 +0000</pubDate>
+				<category><![CDATA[未分類]]></category>
+		<category><![CDATA[opencv]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[カメラキャリブレーション]]></category>
+		<guid isPermaLink="false">/?p=165</guid>
+
+					<description><![CDATA[概要 カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う これは、内部・外部パラメーター、レンズの歪収差係数を求め、画像を補正す ... <a title="カメラキャリブレーションとは" class="read-more" href="/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/" aria-label="Read more about カメラキャリブレーションとは">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">概要</h2>
+
+
+
+<p>カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う</p>
+
+
+
+<p>これは、内部・外部パラメーター、レンズの歪収差係数を求め、画像を補正する処理。</p>
+
+
+
+<p>簡単に言うと、どれくらい歪んでいるかを求めて、正しい画像に修正する処理</p>
+
+
+
+<p>この処理を行うためにopencvのカメラキャリブレーションのライブラリを使用する</p>
+
+
+
+<h2 class="wp-block-heading">カメラのパラメータ</h2>
+
+
+
+<p>カメラの内部パラメータ・外部パラメータ・歪み係数を調べるために、3次元のワールドポイントとそれに対応する2次元のイメージポイントが必要</p>
+
+
+
+<p>写真を撮るときに、カメラは現実世界の3次元の世界を2次元のデータに変換します。その時に歪みなどが生じます。ですので、3次元のデータ(外部パラメータ)や2次元のデータ(内部パラメータ)をもとに歪みを修正します。</p>
+
+
+
+<p>内部パラメータは、カメラの焦点距離や写真の歪みの値など</p>
+
+
+
+<p>外部パラメータは、位置や向いている方向など</p>
+
+
+
+<p>これらを求めるために3次元ワールドポイントと2次元のイメージポイントを比較や計算し、求めていく</p>
+
+
+
+<h2 class="wp-block-heading">歪みの種類</h2>
+
+
+
+<p>歪みには放射状歪みと接線歪みの二つの種類がある。</p>
+
+
+
+<h2 class="wp-block-heading">やり方</h2>
+
+
+
+<p>やり方</p>
+
+
+
+<ol>
+<li>チェスボードを修正したいカメラで約20枚ほど撮る。取り方は左右上下いろんな角度からとったほうが良い。</li>
+
+
+
+<li>撮った画像を使用してチェスボードのコーナーを見つけて、表示する。この時にチェスボードの格子点を数え、cv2.findChessboardConersとcv2.drawChessboardCornersの第二引数に入れる</li>
+
+
+
+<li>チェスボードの格子点を使用しているコードを修正してカメラキャリグレーションを行う</li>
+</ol>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2023/10/Untitled.png" alt="" class="wp-image-167" style="width:434px;height:327px" width="434" height="327" srcset="/wp-content/uploads/2023/10/Untitled.png 809w, /wp-content/uploads/2023/10/Untitled-300x226.png 300w, /wp-content/uploads/2023/10/Untitled-768x578.png 768w" sizes="(max-width: 434px) 100vw, 434px" /></figure>
+
+
+
+<h2 class="wp-block-heading">修正前と修正後の比較</h2>
+
+
+
+<p>修正前</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="/wp-content/uploads/2023/10/right4-1024x768.jpg" alt="" class="wp-image-168" style="width:289px;height:217px" width="289" height="217" srcset="/wp-content/uploads/2023/10/right4-1024x768.jpg 1024w, /wp-content/uploads/2023/10/right4-300x225.jpg 300w, /wp-content/uploads/2023/10/right4-768x576.jpg 768w, /wp-content/uploads/2023/10/right4.jpg 1280w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
+
+
+
+<p>修正後</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" src="/wp-content/uploads/2023/10/Untitled-1.png" alt="" class="wp-image-169" style="width:294px;height:220px" width="294" height="220" srcset="/wp-content/uploads/2023/10/Untitled-1.png 740w, /wp-content/uploads/2023/10/Untitled-1-300x225.png 300w" sizes="(max-width: 294px) 100vw, 294px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

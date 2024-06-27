@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>takoyakieatgame &#8211; 情報系大学生の開発日記</title>
+	<atom:link href="/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/%E3%82%B2%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA%E9%80%B2%E6%8D%97/js/takoyakieatgame/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
+	<lastBuildDate>Thu, 12 Oct 2023 05:26:43 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<item>
+		<title>ボタンとタイトル画像を作成した</title>
+		<link>/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/</link>
+					<comments>/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Tue, 20 Dec 2022 08:15:41 +0000</pubDate>
+				<category><![CDATA[takoyakieatgame]]></category>
+		<guid isPermaLink="false">/?p=52</guid>
+
+					<description><![CDATA[今日の進捗 今日は を行いました。 main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であればGameover画面を表示するように設定し ... <a title="ボタンとタイトル画像を作成した" class="read-more" href="/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/" aria-label="Read more about ボタンとタイトル画像を作成した">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">今日の進捗</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2022/12/Untitled-1.png" alt="" class="wp-image-54" style="width:506px;height:638px" width="506" height="638" srcset="/wp-content/uploads/2022/12/Untitled-1.png 600w, /wp-content/uploads/2022/12/Untitled-1-238x300.png 238w" sizes="(max-width: 506px) 100vw, 506px" /></figure></div>
+
+
+<p>今日は</p>
+
+
+
+<ul>
+<li>ボタンやタイトルなどの画像の作成</li>
+
+
+
+<li>Gameover画面とClear画面の実装</li>
+</ul>
+
+
+
+<p>を行いました。</p>
+
+
+
+<p>main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であればGameover画面を表示するように設定しました。</p>
+
+
+
+<p>Clear画面では、スタート画面に戻る用のExitボタンを作りました。</p>
+
+
+
+<p>GameOver画面では、コンテができるようにしたかったので、「Continue?」と聞き、「Yes」か「No」でコンテするかどうかを選択できるようにしました。「Yes」ならゲーム画面へ、「No」ならタイトル画面に移ります。</p>
+
+
+
+<p>ExitボタンとNoボタンは処理が同じ(どちらもタイトル画面に戻る処理)なので、条件分岐を使って、画像と表示する位置をClearとGameOverの場合で変えて、表示しています。</p>
+
+
+
+<p>ボタンやタイトル画像の制作に時間を取られて、思った以上にコードを書く時間が少なかったので、もっと効率的に画像を作成できるツールはないかと模索中です(まず、デザインセンスがないので、そこも勉強する予定。どうすればいいのかわからない)。</p>
+
+
+
+<p>画像は</p>
+
+
+
+<p></p>
+
+
+
+<p>画像提供 サイト｜空想曲線</p>
+
+
+
+<p>ＵＲＬ｜<a href="https://kopacurve.blog.fc2.com/"></a><a href="https://kopacurve.blog.fc2.com/">https://kopacurve.blog.fc2.com/</a></p>
+
+
+
+<p></p>
+
+
+
+<p>から拝借しました。</p>
+
+
+
+<p>ボタンとタイトルの画像を作りたかったので、「Polarr」というツールを使って、画像に文字を加えたり、色合いを調節しました。「Polarr」はUIがわかりやすく使いやすかったです。ぜひ使ってみてください。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="501" src="/wp-content/uploads/2022/12/Untitled-2-1024x501.png" alt="" class="wp-image-55" srcset="/wp-content/uploads/2022/12/Untitled-2-1024x501.png 1024w, /wp-content/uploads/2022/12/Untitled-2-300x147.png 300w, /wp-content/uploads/2022/12/Untitled-2-768x376.png 768w, /wp-content/uploads/2022/12/Untitled-2-1536x752.png 1536w, /wp-content/uploads/2022/12/Untitled-2.png 1917w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>これからやっていきたいこと</strong></h2>
+
+
+
+<p><strong>• ボタンなどの画像の制作(デザインのセンスがないので勉強してからもう一回作成→タイトルがダサい( ´∀｀ ))</strong></p>
+
+
+
+<p><strong> • bgmの修正(画面をタップしないとbgmが再生されない、どういうこと？)</strong></p>
+
+
+
+<p><strong> • メニューボタン・メニュー画面の追加 • 必殺技ボタンの実装 </strong></p>
+
+
+
+<p><strong>• 同時に複数のたこ焼きを降らせるようにしたい</strong></p>
+
+
+
+<p>次はbgmの修正と同時に複数のたこ焼きを降らせられるようにしたいです。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>連想配列にしてみた</title>
+		<link>/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/</link>
+					<comments>/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Fri, 16 Dec 2022 14:41:50 +0000</pubDate>
+				<category><![CDATA[takoyakieatgame]]></category>
+		<guid isPermaLink="false">/?p=41</guid>
+
+					<description><![CDATA[今日やったこと ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。 とりあえず、いろいろ記事をあさっていて→ https://inwans.com/enchantjs-useful-tech ... <a title="連想配列にしてみた" class="read-more" href="/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/" aria-label="Read more about 連想配列にしてみた">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">今日やったこと</h2>
+
+
+
+<p>ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。</p>
+
+
+
+<p>とりあえず、いろいろ記事をあさっていて→ <a href="https://inwans.com/enchantjs-useful-techniques/" data-type="URL" data-id="https://inwans.com/enchantjs-useful-techniques/">https://inwans.com/enchantjs-useful-techniques/</a></p>
+
+
+
+<p>に書いてあった、連想配列を使ってbgmやら画像やらをまとめてpreloadできるようにした。</p>
+
+
+
+<p>bgmとかimgやらのパスをキーの値にして、まとめてASSETSにぶち込む</p>
+
+
+
+<p>そして、パスが入っているASSETSをまとめてpreloadする。実際にコードを見たほうがいいと思うので載せておきます。</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="468" height="507" src="/wp-content/uploads/2022/12/image-4.png" alt="" class="wp-image-58" srcset="/wp-content/uploads/2022/12/image-4.png 468w, /wp-content/uploads/2022/12/image-4-277x300.png 277w" sizes="(max-width: 468px) 100vw, 468px" /></figure>
+
+
+
+<p>やっぱり便利、連想配列！</p>
+
+
+
+<p>普通の配列は[]で囲むが、連想配列は{}で囲む。今回だと</p>
+
+
+
+<p>var ASSETS = {}</p>
+
+
+
+<p>でASSETSという名前のオブジェクト(連想配列)を作り、オブジェクトの中に</p>
+
+
+
+<p>キー：値　</p>
+
+
+
+<p>を書くことにより、要素を追加できる。</p>
+
+
+
+<p>こうすることで、ファイル名ではなくキーを使って画像やbgmを使うことができる</p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">参考にしたもの</h2>
+
+
+
+<ul>
+<li>https://techplay.jp/column/528</li>
+
+
+
+<li>https://inwans.com/enchantjs-useful-techniques/</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>今までやってたこと</title>
+		<link>/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/</link>
+					<comments>/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/#respond</comments>
+		
+		<dc:creator><![CDATA[bee]]></dc:creator>
+		<pubDate>Fri, 16 Dec 2022 13:49:32 +0000</pubDate>
+				<category><![CDATA[takoyakieatgame]]></category>
+		<guid isPermaLink="false">/?p=18</guid>
+
+					<description><![CDATA[作ろうと思った経緯 友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。 大学では少しプログラミングをかじっているので、いいアウトプットになると思って、今回制作しました。 今回は以下のサ ... <a title="今までやってたこと" class="read-more" href="/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/" aria-label="Read more about 今までやってたこと">続きを読む</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">作ろうと思った経緯</h2>
+
+
+
+<p>友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。</p>
+
+
+
+<p>大学では少しプログラミングをかじっているので、いいアウトプットになると思って、今回制作しました。</p>
+
+
+
+<p>今回は以下のサイトを見ながらオリジナルのゲームを作っていこうと思います。</p>
+
+
+
+<p>参考記事(簡単にゲーム制作が学べるのでおすすめ、マジ感謝です)→&nbsp;<a href="https://hothukurou.com/blog/post-599">https://hothukurou.com/blog/post-599</a></p>
+
+
+
+<h2 class="wp-block-heading">ゲームの内容</h2>
+
+
+
+<p>たこ焼きが好きな私が、空からいろんな種類のたこ焼きが降ってきて食べれたらいいなぁということで、ゲーム化しました。</p>
+
+
+
+<p>たこ焼きが上から降ってくるので、それをタップして食べるゲームです。</p>
+
+
+
+<p>たこ焼きを食べるごとに難易度が上がっていき、全部残さず食べれたらClearです。</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/12/image.png" alt="" class="wp-image-20" style="width:251px;height:312px" width="251" height="312" srcset="/wp-content/uploads/2022/12/image.png 528w, /wp-content/uploads/2022/12/image-241x300.png 241w" sizes="(max-width: 251px) 100vw, 251px" /></figure>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/12/image-2.png" alt="" class="wp-image-23" style="width:247px;height:303px" width="247" height="303" srcset="/wp-content/uploads/2022/12/image-2.png 531w, /wp-content/uploads/2022/12/image-2-244x300.png 244w" sizes="(max-width: 247px) 100vw, 247px" /></figure>
+</div></div>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/12/image-3.png" alt="" class="wp-image-24" style="width:248px;height:306px" width="248" height="306" srcset="/wp-content/uploads/2022/12/image-3.png 528w, /wp-content/uploads/2022/12/image-3-243x300.png 243w" sizes="(max-width: 248px) 100vw, 248px" /></figure>
+
+
+
+<h2 class="wp-block-heading">今までやっていたこと</h2>
+
+
+
+<p>今までは、参考にしたwebサイトをじっくーり読んで、以下の機能を実装しました。</p>
+
+
+
+<ul>
+<li>レイアウトを整える(タイトルやGAMEOVERの文字などを整えた)</li>
+
+
+
+<li>背景やたこ焼きなどの画像やbgmを追加</li>
+
+
+
+<li>スタート画面とGameOver画面の追加/遷移ボタンの配置</li>
+</ul>
+
+
+
+<p>基本的なループなどはサイトを見ながら作りました(といってもほぼそのままでパラメータだけ変えて上から降ってくる感じにしました)。ほかにも背景画像やbgmなどは、ダウンロードして変数で扱えばいいので、すぐ実装できました。</p>
+
+
+
+<p>スタート画面は終了画面と同じく、Sceneオブジェクトのインスタンスを作り、それを画面に追加する形で実装をしました。</p>
+
+
+
+<p>終了画面からスタート画面に行くボタン、リスタートボタンを追加しようとした際に、そのままリトライボタンと同じくstate=0にしたまま、</p>
+
+
+
+<p>game.popScene(); game.pushScene(startScene);</p>
+
+
+
+<p>でスタート画面に戻ると裏でゲームが始まってしまい、スタート画面にいるのに、ゲームオーバーになってしまう現象が起きたので少し悩みました。</p>
+
+
+
+<p>game.onenterframeのところで</p>
+
+
+
+<p>state==0(start画面の状態、常にstate=0)とstate==0.1(main画面の状態、呼び出したらstate=1にする)</p>
+
+
+
+<p>で分けることによって、裏でゲームが実行されずに、スタート画面を表示することができました。</p>
+
+
+
+<pre class="wp-block-code"><code>//初期値(start画面)
+if (state == 0) {
+	takoyakiImg.x = 150;
+	takoyakiImg.y = -200;
+	point = 0;
+	<span style="--marker-custom-color:#ff6900" class="marker-custom">state = 0;</span>→ここの値を0にしないとゲームが実行されてしまう
+}
+//初期値(main画面)
+if (state == 0.1) {
+	takoyakiImg.x = 150;
+	takoyakiImg.y = -200;
+	point = 0;
+	<span style="--marker-custom-color:#ff6900" class="marker-custom">state = 1;</span>→main画面に移ったらstate=1にしてゲームが始まる
+}
+
+//リトライボタン
+retryBtn.ontouchend = function () {
+	state = 0.1;
+	game.assets&#91;buttonclickSndUrl].clone().play();
+	game.replaceScene(mainScene);
+};
+
+//リスタートボタン
+tweetBtn.ontouchend = function () {
+	state = 0;
+	game.assets&#91;buttonclickSndUrl].clone().play();
+	game.popScene();
+	game.pushScene(startScene);
+};
+		</code></pre>
+
+
+
+<h2 class="wp-block-heading">これからやっていきたいこと</h2>
+
+
+
+<ul>
+<li>ボタンなどの画像の制作</li>
+
+
+
+<li>bgmの修正(画面をタップしないとbgmが再生されない、どういうこと？)</li>
+
+
+
+<li>メニューボタン・メニュー画面の追加</li>
+
+
+
+<li>必殺技ボタンの実装</li>
+
+
+
+<li>同時に複数のたこ焼きを降らせるようにしたい</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
