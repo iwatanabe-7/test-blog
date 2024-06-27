@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Railsチュートリアル &#8211; 情報系大学生の開発日記</title>
-	<atom:link href="/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E9%96%8B%E7%99%BA/rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://iwatanabee.github.io/test-blog/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E9%96%8B%E7%99%BA/rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/feed/" rel="self" type="application/rss+xml" />
+	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
 	<lastBuildDate>Tue, 23 Jan 2024 10:11:57 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,15 +21,15 @@
 	<generator>https://wordpress.org/?v=6.5.5</generator>
 	<item>
 		<title>Railsチュートリアルを学んでいく</title>
-		<link>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/</link>
-					<comments>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/#respond</comments>
+		<link>https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/</link>
+					<comments>https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/#respond</comments>
 		
 		<dc:creator><![CDATA[bee]]></dc:creator>
 		<pubDate>Mon, 26 Dec 2022 14:03:43 +0000</pubDate>
 				<category><![CDATA[Railsチュートリアル]]></category>
-		<guid isPermaLink="false">/?p=76</guid>
+		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=76</guid>
 
-					<description><![CDATA[Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。 基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした 進捗 日付　　 学習したページ　　学習内容　　 ... <a title="Railsチュートリアルを学んでいく" class="read-more" href="/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルを学んでいく">続きを読む</a>]]></description>
+					<description><![CDATA[Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。 基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした 進捗 日付　　 学習したページ　　学習内容　　 ... <a title="Railsチュートリアルを学んでいく" class="read-more" href="https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルを学んでいく">続きを読む</a>]]></description>
 										<content:encoded><![CDATA[
 <p>Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。</p>
 
@@ -114,24 +114,24 @@
 <p>合計勉強時間：22.75h</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/feed/</wfw:commentRss>
+					<wfw:commentRss>https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Railsチュートリアルの「JavaScript」を学んでいく</title>
-		<link>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/</link>
-					<comments>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/#respond</comments>
+		<link>https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/</link>
+					<comments>https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/#respond</comments>
 		
 		<dc:creator><![CDATA[bee]]></dc:creator>
 		<pubDate>Sun, 25 Dec 2022 14:42:17 +0000</pubDate>
 				<category><![CDATA[js]]></category>
 		<category><![CDATA[Railsチュートリアル]]></category>
 		<category><![CDATA[Webサービス開発]]></category>
-		<guid isPermaLink="false">/?p=68</guid>
+		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=68</guid>
 
-					<description><![CDATA[Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。 もともと、Web ... <a title="Railsチュートリアルの「JavaScript」を学んでいく" class="read-more" href="/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルの「JavaScript」を学んでいく">続きを読む</a>]]></description>
+					<description><![CDATA[Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。 もともと、Web ... <a title="Railsチュートリアルの「JavaScript」を学んでいく" class="read-more" href="https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルの「JavaScript」を学んでいく">続きを読む</a>]]></description>
 										<content:encoded><![CDATA[
 <p>Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。</p>
 
@@ -160,7 +160,7 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/feed/</wfw:commentRss>
+					<wfw:commentRss>https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

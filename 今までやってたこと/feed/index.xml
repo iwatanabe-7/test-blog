@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	今までやってたこと へのコメント	</title>
-	<atom:link href="/%E4%BB%8A%E3%81%BE%E3%81%A7%E3%82%84%E3%81%A3%E3%81%A6%E3%81%9F%E3%81%93%E3%81%A8/feed/" rel="self" type="application/rss+xml" />
-	<link>/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/</link>
+	<atom:link href="https://iwatanabee.github.io/test-blog/%E4%BB%8A%E3%81%BE%E3%81%A7%E3%82%84%E3%81%A3%E3%81%A6%E3%81%9F%E3%81%93%E3%81%A8/feed/" rel="self" type="application/rss+xml" />
+	<link>https://iwatanabee.github.io/test-blog/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
 	<lastBuildDate>Thu, 12 Oct 2023 05:26:43 +0000</lastBuildDate>
 	<sy:updatePeriod>

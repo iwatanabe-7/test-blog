@@ -9,8 +9,8 @@
 
 <channel>
 	<title>制作物 &#8211; 情報系大学生の開発日記</title>
-	<atom:link href="/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E9%96%8B%E7%99%BA/%E5%88%B6%E4%BD%9C%E7%89%A9/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://iwatanabee.github.io/test-blog/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E9%96%8B%E7%99%BA/%E5%88%B6%E4%BD%9C%E7%89%A9/feed/" rel="self" type="application/rss+xml" />
+	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
 	<lastBuildDate>Thu, 12 Oct 2023 06:00:44 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,15 +21,15 @@
 	<generator>https://wordpress.org/?v=6.5.5</generator>
 	<item>
 		<title>グルメサーチAPIを使用したお店検索プログラム</title>
-		<link>/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/</link>
-					<comments>/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/#respond</comments>
+		<link>https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/</link>
+					<comments>https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/#respond</comments>
 		
 		<dc:creator><![CDATA[bee]]></dc:creator>
 		<pubDate>Thu, 12 Oct 2023 06:00:43 +0000</pubDate>
 				<category><![CDATA[制作物]]></category>
-		<guid isPermaLink="false">/?p=173</guid>
+		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=173</guid>
 
-					<description><![CDATA[概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人の ... <a title="グルメサーチAPIを使用したお店検索プログラム" class="read-more" href="/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/" aria-label="Read more about グルメサーチAPIを使用したお店検索プログラム">続きを読む</a>]]></description>
+					<description><![CDATA[概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人の ... <a title="グルメサーチAPIを使用したお店検索プログラム" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/" aria-label="Read more about グルメサーチAPIを使用したお店検索プログラム">続きを読む</a>]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">概要</h2>
 
@@ -89,14 +89,14 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="550" src="/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1024x550.png" alt="" class="wp-image-174" srcset="/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1024x550.png 1024w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-300x161.png 300w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-768x413.png 768w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1536x825.png 1536w, /wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-2048x1100.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="550" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1024x550.png" alt="" class="wp-image-174" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1024x550.png 1024w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-300x161.png 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-768x413.png 768w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-1536x825.png 1536w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/268446297-425870ed-09f0-4cd4-835a-c13bf5667694-2048x1100.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
 <figure class="wp-block-image"><img decoding="async" src="https://user-images.githubusercontent.com/83575309/268446279-12c9ba1b-f392-4941-8e06-63a0e303605e.png" alt=""/></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/feed/</wfw:commentRss>
+					<wfw:commentRss>https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

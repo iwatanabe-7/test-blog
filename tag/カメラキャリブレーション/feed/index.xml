@@ -9,8 +9,8 @@
 
 <channel>
 	<title>カメラキャリブレーション &#8211; 情報系大学生の開発日記</title>
-	<atom:link href="/tag/%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%AD%E3%83%A3%E3%83%AA%E3%83%96%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://iwatanabee.github.io/test-blog/tag/%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%AD%E3%83%A3%E3%83%AA%E3%83%96%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/feed/" rel="self" type="application/rss+xml" />
+	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
 	<lastBuildDate>Thu, 12 Oct 2023 05:50:17 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=6.5.5</generator>
 	<item>
 		<title>カメラキャリブレーションとは</title>
-		<link>/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/</link>
-					<comments>/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/#respond</comments>
+		<link>https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/</link>
+					<comments>https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/#respond</comments>
 		
 		<dc:creator><![CDATA[bee]]></dc:creator>
 		<pubDate>Thu, 12 Oct 2023 05:42:32 +0000</pubDate>
@@ -30,9 +30,9 @@
 		<category><![CDATA[opencv]]></category>
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[カメラキャリブレーション]]></category>
-		<guid isPermaLink="false">/?p=165</guid>
+		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=165</guid>
 
-					<description><![CDATA[概要 カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う これは、内部・外部パラメーター、レンズの歪収差係数を求め、画像を補正す ... <a title="カメラキャリブレーションとは" class="read-more" href="/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/" aria-label="Read more about カメラキャリブレーションとは">続きを読む</a>]]></description>
+					<description><![CDATA[概要 カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う これは、内部・外部パラメーター、レンズの歪収差係数を求め、画像を補正す ... <a title="カメラキャリブレーションとは" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/" aria-label="Read more about カメラキャリブレーションとは">続きを読む</a>]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">概要</h2>
 
@@ -108,7 +108,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2023/10/Untitled.png" alt="" class="wp-image-167" style="width:434px;height:327px" width="434" height="327" srcset="/wp-content/uploads/2023/10/Untitled.png 809w, /wp-content/uploads/2023/10/Untitled-300x226.png 300w, /wp-content/uploads/2023/10/Untitled-768x578.png 768w" sizes="(max-width: 434px) 100vw, 434px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png" alt="" class="wp-image-167" style="width:434px;height:327px" width="434" height="327" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png 809w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-300x226.png 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-768x578.png 768w" sizes="(max-width: 434px) 100vw, 434px" /></figure>
 
 
 
@@ -120,7 +120,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" src="/wp-content/uploads/2023/10/right4-1024x768.jpg" alt="" class="wp-image-168" style="width:289px;height:217px" width="289" height="217" srcset="/wp-content/uploads/2023/10/right4-1024x768.jpg 1024w, /wp-content/uploads/2023/10/right4-300x225.jpg 300w, /wp-content/uploads/2023/10/right4-768x576.jpg 768w, /wp-content/uploads/2023/10/right4.jpg 1280w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg" alt="" class="wp-image-168" style="width:289px;height:217px" width="289" height="217" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg 1024w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-300x225.jpg 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-768x576.jpg 768w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4.jpg 1280w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
 
 
 
@@ -128,10 +128,10 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img decoding="async" src="/wp-content/uploads/2023/10/Untitled-1.png" alt="" class="wp-image-169" style="width:294px;height:220px" width="294" height="220" srcset="/wp-content/uploads/2023/10/Untitled-1.png 740w, /wp-content/uploads/2023/10/Untitled-1-300x225.png 300w" sizes="(max-width: 294px) 100vw, 294px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png" alt="" class="wp-image-169" style="width:294px;height:220px" width="294" height="220" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png 740w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1-300x225.png 300w" sizes="(max-width: 294px) 100vw, 294px" /></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/feed/</wfw:commentRss>
+					<wfw:commentRss>https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

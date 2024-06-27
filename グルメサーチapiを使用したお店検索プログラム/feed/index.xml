@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	グルメサーチAPIを使用したお店検索プログラム へのコメント	</title>
-	<atom:link href="/%E3%82%B0%E3%83%AB%E3%83%A1%E3%82%B5%E3%83%BC%E3%83%81api%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%81%8A%E5%BA%97%E6%A4%9C%E7%B4%A2%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/feed/" rel="self" type="application/rss+xml" />
-	<link>/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/</link>
+	<atom:link href="https://iwatanabee.github.io/test-blog/%E3%82%B0%E3%83%AB%E3%83%A1%E3%82%B5%E3%83%BC%E3%83%81api%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%81%8A%E5%BA%97%E6%A4%9C%E7%B4%A2%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/feed/" rel="self" type="application/rss+xml" />
+	<link>https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
 	<lastBuildDate>Thu, 12 Oct 2023 06:00:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
