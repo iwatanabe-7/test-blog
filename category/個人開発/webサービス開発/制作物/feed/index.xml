@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>制作物 &#8211; 情報系大学生の開発日記</title>
+	<title>制作物  |  情報系大学生の開発日記</title>
 	<atom:link href="https://iwatanabee.github.io/test-blog/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E9%96%8B%E7%99%BA/%E5%88%B6%E4%BD%9C%E7%89%A9/feed/" rel="self" type="application/rss+xml" />
 	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
@@ -29,9 +29,16 @@
 				<category><![CDATA[制作物]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=173</guid>
 
-					<description><![CDATA[概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人の ... <a title="グルメサーチAPIを使用したお店検索プログラム" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/" aria-label="Read more about グルメサーチAPIを使用したお店検索プログラム">続きを読む</a>]]></description>
+					<description><![CDATA[目次 概要なぜ作ろうと思ったか機能使用した技術実際の画面 概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">概要</h2>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">概要</a></li><li><a href="#toc2" tabindex="0">なぜ作ろうと思ったか</a></li><li><a href="#toc3" tabindex="0">機能</a></li><li><a href="#toc4" tabindex="0">使用した技術</a></li><li><a href="#toc5" tabindex="0">実際の画面</a></li></ol>
+    </div>
+  </div>
+
+<h2 class="wp-block-heading"><span id="toc1">概要</span></h2>
 
 
 
@@ -43,7 +50,7 @@
 
 
 
-<h2 class="wp-block-heading">なぜ作ろうと思ったか</h2>
+<h2 class="wp-block-heading"><span id="toc2">なぜ作ろうと思ったか</span></h2>
 
 
 
@@ -51,7 +58,7 @@
 
 
 
-<h2 class="wp-block-heading">機能</h2>
+<h2 class="wp-block-heading"><span id="toc3">機能</span></h2>
 
 
 
@@ -67,7 +74,7 @@
 
 
 
-<h2 class="wp-block-heading">使用した技術</h2>
+<h2 class="wp-block-heading"><span id="toc4">使用した技術</span></h2>
 
 
 
@@ -85,7 +92,7 @@
 
 
 
-<h2 class="wp-block-heading">実際の画面</h2>
+<h2 class="wp-block-heading"><span id="toc5">実際の画面</span></h2>
 
 
 

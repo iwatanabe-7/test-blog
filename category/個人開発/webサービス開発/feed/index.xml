@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>Webサービス開発 &#8211; 情報系大学生の開発日記</title>
+	<title>Webサービス開発  |  情報系大学生の開発日記</title>
 	<atom:link href="https://iwatanabee.github.io/test-blog/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E9%96%8B%E7%99%BA/feed/" rel="self" type="application/rss+xml" />
 	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
@@ -31,13 +31,20 @@
 		<category><![CDATA[個人開発]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=187</guid>
 
-					<description><![CDATA[2024/1/23 ホーム・新規登録画面のレイアウト作成 今日の進捗 今日は、個人で開発している「Imemo」というWebサービスの、新規登録とHome画面のレイアウトを整えてみました。 上の画像のように、新規画面・ログ ... <a title="個人開発「Imemo」の進捗" class="read-more" href="https://iwatanabee.github.io/test-blog/2024%e5%b9%b4-1-23-%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%82%92%e6%95%b4%e3%81%88%e3%82%8b/" aria-label="Read more about 個人開発「Imemo」の進捗">続きを読む</a>]]></description>
+					<description><![CDATA[目次 2024/1/23 ホーム・新規登録画面のレイアウト作成今日の進捗ホーム画面のレイアウトindex.html.erb (ホーム画面のマンダラートのコード)application.scss2024/1/24 テストコ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">2024/1/23 ホーム・新規登録画面のレイアウト作成</h2>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">2024/1/23 ホーム・新規登録画面のレイアウト作成</a><ol><li><a href="#toc2" tabindex="0">今日の進捗</a></li><li><a href="#toc3" tabindex="0">ホーム画面のレイアウト</a><ol><li><a href="#toc4" tabindex="0">index.html.erb (ホーム画面のマンダラートのコード)</a></li><li><a href="#toc5" tabindex="0">application.scss</a></li></ol></li></ol></li><li><a href="#toc6" tabindex="0">2024/1/24 テストコード・CI/CDを作成</a><ol><li><a href="#toc7" tabindex="0">今日の進捗</a></li></ol></li><li><a href="#toc8" tabindex="0">2024/01/26 GitHub Copilot を導入</a></li></ol>
+    </div>
+  </div>
+
+<h2 class="wp-block-heading"><span id="toc1">2024/1/23 ホーム・新規登録画面のレイアウト作成</span></h2>
 
 
 
-<h3 class="wp-block-heading">今日の進捗</h3>
+<h3 class="wp-block-heading"><span id="toc2">今日の進捗</span></h3>
 
 
 
@@ -67,7 +74,7 @@
 
 
 
-<h3 class="wp-block-heading">ホーム画面のレイアウト</h3>
+<h3 class="wp-block-heading"><span id="toc3">ホーム画面のレイアウト</span></h3>
 
 
 
@@ -83,7 +90,7 @@
 
 
 
-<h4 class="wp-block-heading">index.html.erb (ホーム画面のマンダラートのコード)</h4>
+<h4 class="wp-block-heading"><span id="toc4">index.html.erb (ホーム画面のマンダラートのコード)</span></h4>
 
 
 
@@ -109,7 +116,7 @@
 
 
 
-<h4 class="wp-block-heading">application.scss</h4>
+<h4 class="wp-block-heading"><span id="toc5">application.scss</span></h4>
 
 
 
@@ -134,7 +141,8 @@ body {
 
 
 
-<p><a href="https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6">https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6</a></p>
+
+<a rel="noopener" href="https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6" title="change self scss setting · iwatanabee/Idea-memory@49a0f5f" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img loading="lazy" decoding="async" src="https://opengraph.githubassets.com/b1a51b779e1433432a295abc5d6a1694295cb82a740b763dbfbbeee48a83adc4/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">change self scss setting · iwatanabee/Idea-memory@49a0f5f</div><div class="blogcard-snippet external-blogcard-snippet">アイデア出しをサポートするWebサービス「Imemo」(アイメモ). Contribute to iwatanabee/Idea-memory development by creating an account on GitHub.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img loading="lazy" decoding="async" src="https://www.google.com/s2/favicons?domain=https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">github.com</div></div></div></div></a>
 
 
 
@@ -142,11 +150,11 @@ body {
 
 
 
-<h2 class="wp-block-heading">2024/1/24 テストコード・CI/CDを作成</h2>
+<h2 class="wp-block-heading"><span id="toc6">2024/1/24 テストコード・CI/CDを作成</span></h2>
 
 
 
-<h3 class="wp-block-heading">今日の進捗</h3>
+<h3 class="wp-block-heading"><span id="toc7">今日の進捗</span></h3>
 
 
 
@@ -214,7 +222,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<h2 class="wp-block-heading">2024/01/26 GitHub Copilot を導入</h2>
+<h2 class="wp-block-heading"><span id="toc8">2024/01/26 GitHub Copilot を導入</span></h2>
 
 
 
@@ -249,9 +257,16 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 				<category><![CDATA[制作物]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=173</guid>
 
-					<description><![CDATA[概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人の ... <a title="グルメサーチAPIを使用したお店検索プログラム" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/" aria-label="Read more about グルメサーチAPIを使用したお店検索プログラム">続きを読む</a>]]></description>
+					<description><![CDATA[目次 概要なぜ作ろうと思ったか機能使用した技術実際の画面 概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">概要</h2>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">概要</a></li><li><a href="#toc2" tabindex="0">なぜ作ろうと思ったか</a></li><li><a href="#toc3" tabindex="0">機能</a></li><li><a href="#toc4" tabindex="0">使用した技術</a></li><li><a href="#toc5" tabindex="0">実際の画面</a></li></ol>
+    </div>
+  </div>
+
+<h2 class="wp-block-heading"><span id="toc1">概要</span></h2>
 
 
 
@@ -263,7 +278,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<h2 class="wp-block-heading">なぜ作ろうと思ったか</h2>
+<h2 class="wp-block-heading"><span id="toc2">なぜ作ろうと思ったか</span></h2>
 
 
 
@@ -271,7 +286,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<h2 class="wp-block-heading">機能</h2>
+<h2 class="wp-block-heading"><span id="toc3">機能</span></h2>
 
 
 
@@ -287,7 +302,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<h2 class="wp-block-heading">使用した技術</h2>
+<h2 class="wp-block-heading"><span id="toc4">使用した技術</span></h2>
 
 
 
@@ -305,7 +320,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<h2 class="wp-block-heading">実際の画面</h2>
+<h2 class="wp-block-heading"><span id="toc5">実際の画面</span></h2>
 
 
 
@@ -331,7 +346,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 				<category><![CDATA[Railsチュートリアル]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=76</guid>
 
-					<description><![CDATA[Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。 基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした 進捗 日付　　 学習したページ　　学習内容　　 ... <a title="Railsチュートリアルを学んでいく" class="read-more" href="https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルを学んでいく">続きを読む</a>]]></description>
+					<description><![CDATA[Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。 基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした 進捗 日付　　 学習したページ　　学習内容　　 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。</p>
 
@@ -433,7 +448,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 		<category><![CDATA[Webサービス開発]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=68</guid>
 
-					<description><![CDATA[Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。 もともと、Web ... <a title="Railsチュートリアルの「JavaScript」を学んでいく" class="read-more" href="https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルの「JavaScript」を学んでいく">続きを読む</a>]]></description>
+					<description><![CDATA[Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。 もともと、Web [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。</p>
 

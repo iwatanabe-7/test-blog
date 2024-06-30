@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>未分類 &#8211; 情報系大学生の開発日記</title>
+	<title>未分類  |  情報系大学生の開発日記</title>
 	<atom:link href="https://iwatanabee.github.io/test-blog/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
@@ -32,9 +32,16 @@
 		<category><![CDATA[カメラキャリブレーション]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=165</guid>
 
-					<description><![CDATA[概要 カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う これは、内部・外部パラメーター、レンズの歪収差係数を求め、画像を補正す ... <a title="カメラキャリブレーションとは" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/" aria-label="Read more about カメラキャリブレーションとは">続きを読む</a>]]></description>
+					<description><![CDATA[目次 概要カメラのパラメータ歪みの種類やり方修正前と修正後の比較 概要 カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う これ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">概要</h2>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">概要</a></li><li><a href="#toc2" tabindex="0">カメラのパラメータ</a></li><li><a href="#toc3" tabindex="0">歪みの種類</a></li><li><a href="#toc4" tabindex="0">やり方</a></li><li><a href="#toc5" tabindex="0">修正前と修正後の比較</a></li></ol>
+    </div>
+  </div>
+
+<h2 class="wp-block-heading"><span id="toc1">概要</span></h2>
 
 
 
@@ -54,7 +61,7 @@
 
 
 
-<h2 class="wp-block-heading">カメラのパラメータ</h2>
+<h2 class="wp-block-heading"><span id="toc2">カメラのパラメータ</span></h2>
 
 
 
@@ -78,7 +85,7 @@
 
 
 
-<h2 class="wp-block-heading">歪みの種類</h2>
+<h2 class="wp-block-heading"><span id="toc3">歪みの種類</span></h2>
 
 
 
@@ -86,7 +93,7 @@
 
 
 
-<h2 class="wp-block-heading">やり方</h2>
+<h2 class="wp-block-heading"><span id="toc4">やり方</span></h2>
 
 
 
@@ -108,11 +115,11 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png" alt="" class="wp-image-167" style="width:434px;height:327px" width="434" height="327" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png 809w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-300x226.png 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-768x578.png 768w" sizes="(max-width: 434px) 100vw, 434px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png" alt="" class="wp-image-167" style="aspect-ratio:434/327" width="434" height="327" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png 809w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-300x226.png 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-768x578.png 768w" sizes="(max-width: 434px) 100vw, 434px" /></figure>
 
 
 
-<h2 class="wp-block-heading">修正前と修正後の比較</h2>
+<h2 class="wp-block-heading"><span id="toc5">修正前と修正後の比較</span></h2>
 
 
 
@@ -120,7 +127,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg" alt="" class="wp-image-168" style="width:289px;height:217px" width="289" height="217" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg 1024w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-300x225.jpg 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-768x576.jpg 768w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4.jpg 1280w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg" alt="" class="wp-image-168" style="aspect-ratio:289/217" width="289" height="217" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg 1024w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-300x225.jpg 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-768x576.jpg 768w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4.jpg 1280w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
 
 
 
@@ -128,7 +135,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png" alt="" class="wp-image-169" style="width:294px;height:220px" width="294" height="220" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png 740w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1-300x225.png 300w" sizes="(max-width: 294px) 100vw, 294px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png" alt="" class="wp-image-169" style="aspect-ratio:294/220" width="294" height="220" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png 740w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1-300x225.png 300w" sizes="(max-width: 294px) 100vw, 294px" /></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/feed/</wfw:commentRss>

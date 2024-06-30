@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>bee &#8211; 情報系大学生の開発日記</title>
+	<title>bee  |  情報系大学生の開発日記</title>
 	<atom:link href="https://iwatanabee.github.io/test-blog/author/iwatanabee/feed/" rel="self" type="application/rss+xml" />
 	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
@@ -31,7 +31,7 @@
 		<category><![CDATA[個人開発]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=187</guid>
 
-					<description><![CDATA[2024/1/23 ホーム・新規登録画面のレイアウト作成 今日の進捗 今日は、個人で開発している「Imemo」というWebサービスの、新規登録とHome画面のレイアウトを整えてみました。 上の画像のように、新規画面・ログ ... <a title="個人開発「Imemo」の進捗" class="read-more" href="https://iwatanabee.github.io/test-blog/2024%e5%b9%b4-1-23-%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%82%92%e6%95%b4%e3%81%88%e3%82%8b/" aria-label="Read more about 個人開発「Imemo」の進捗">続きを読む</a>]]></description>
+					<description><![CDATA[2024/1/23 ホーム・新規登録画面のレイアウト作成 今日の進捗 今日は、個人で開発している「Imemo」というWebサービスの、新規登録とHome画面のレイアウトを整えてみました。 上の画像のように、新規画面・ログ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">2024/1/23 ホーム・新規登録画面のレイアウト作成</h2>
 
@@ -134,7 +134,8 @@ body {
 
 
 
-<p><a href="https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6">https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6</a></p>
+
+<a rel="noopener" href="https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6" title="change self scss setting · iwatanabee/Idea-memory@49a0f5f" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img loading="lazy" decoding="async" src="https://opengraph.githubassets.com/b1a51b779e1433432a295abc5d6a1694295cb82a740b763dbfbbeee48a83adc4/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">change self scss setting · iwatanabee/Idea-memory@49a0f5f</div><div class="blogcard-snippet external-blogcard-snippet">アイデア出しをサポートするWebサービス「Imemo」(アイメモ). Contribute to iwatanabee/Idea-memory development by creating an account on GitHub.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img loading="lazy" decoding="async" src="https://www.google.com/s2/favicons?domain=https://github.com/iwatanabee/Idea-memory/commit/49a0f5f5f40a5161d226f4416606905087be0cb6" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">github.com</div></div></div></div></a>
 
 
 
@@ -249,7 +250,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 				<category><![CDATA[制作物]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=173</guid>
 
-					<description><![CDATA[概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人の ... <a title="グルメサーチAPIを使用したお店検索プログラム" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%82%b0%e3%83%ab%e3%83%a1%e3%82%b5%e3%83%bc%e3%83%81api%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%9f%e3%81%8a%e5%ba%97%e6%a4%9c%e7%b4%a2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/" aria-label="Read more about グルメサーチAPIを使用したお店検索プログラム">続きを読む</a>]]></description>
+					<description><![CDATA[概要 大学の授業で作成した、ホットペッパーのグルメサーチAPIを使用したお店検索ができるcgiプログラム 現在地から近いお店を検索できたり、お気に入りのお店を保存することができます。 また、お店をなかなか決められない人の [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">概要</h2>
 
@@ -334,7 +335,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 		<category><![CDATA[カメラキャリブレーション]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=165</guid>
 
-					<description><![CDATA[概要 カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う これは、内部・外部パラメーター、レンズの歪収差係数を求め、画像を補正す ... <a title="カメラキャリブレーションとは" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/" aria-label="Read more about カメラキャリブレーションとは">続きを読む</a>]]></description>
+					<description><![CDATA[概要 カメラで撮った画像は丸みを帯びていたりと歪みが生じている可能性があるので、この歪みを修正するために「カメラキャリブレーション」という処理を行う これは、内部・外部パラメーター、レンズの歪収差係数を求め、画像を補正す [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">概要</h2>
 
@@ -410,7 +411,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png" alt="" class="wp-image-167" style="width:434px;height:327px" width="434" height="327" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png 809w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-300x226.png 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-768x578.png 768w" sizes="(max-width: 434px) 100vw, 434px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png" alt="" class="wp-image-167" style="aspect-ratio:434/327" width="434" height="327" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled.png 809w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-300x226.png 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-768x578.png 768w" sizes="(max-width: 434px) 100vw, 434px" /></figure>
 
 
 
@@ -422,7 +423,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg" alt="" class="wp-image-168" style="width:289px;height:217px" width="289" height="217" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg 1024w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-300x225.jpg 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-768x576.jpg 768w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4.jpg 1280w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg" alt="" class="wp-image-168" style="aspect-ratio:289/217" width="289" height="217" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-1024x768.jpg 1024w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-300x225.jpg 300w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4-768x576.jpg 768w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/right4.jpg 1280w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
 
 
 
@@ -430,7 +431,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png" alt="" class="wp-image-169" style="width:294px;height:220px" width="294" height="220" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png 740w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1-300x225.png 300w" sizes="(max-width: 294px) 100vw, 294px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png" alt="" class="wp-image-169" style="aspect-ratio:294/220" width="294" height="220" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1.png 740w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2023/10/Untitled-1-300x225.png 300w" sizes="(max-width: 294px) 100vw, 294px" /></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://iwatanabee.github.io/test-blog/%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%ad%e3%83%a3%e3%83%aa%e3%83%96%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e3%81%af/feed/</wfw:commentRss>
@@ -448,7 +449,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 				<category><![CDATA[Railsチュートリアル]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=76</guid>
 
-					<description><![CDATA[Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。 基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした 進捗 日付　　 学習したページ　　学習内容　　 ... <a title="Railsチュートリアルを学んでいく" class="read-more" href="https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルを学んでいく">続きを読む</a>]]></description>
+					<description><![CDATA[Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。 基礎から重点的にやっていこうと思います。一月の後半はテストと研究で学習できませんでした 進捗 日付　　 学習したページ　　学習内容　　 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>Webサービス開発を学ぶために「Railsチュートリアル」をやっていこうと思います。</p>
 
@@ -550,7 +551,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 		<category><![CDATA[Webサービス開発]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=68</guid>
 
-					<description><![CDATA[Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。 もともと、Web ... <a title="Railsチュートリアルの「JavaScript」を学んでいく" class="read-more" href="https://iwatanabee.github.io/test-blog/rails%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%80%8cjavascript%e3%80%8d%e3%82%92%e5%ad%a6%e3%82%93%e3%81%a7%e3%81%84%e3%81%8f/" aria-label="Read more about Railsチュートリアルの「JavaScript」を学んでいく">続きを読む</a>]]></description>
+					<description><![CDATA[Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。 もともと、Web [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>Javascriptでゲームを作成するのに、JavaScriptの基礎がわかっていないといけないと思ったので、Railsチュートリアルの「JavaScript」のチュートリアルを学んでいこうと思います。</p>
 
@@ -594,13 +595,14 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 				<category><![CDATA[takoyakieatgame]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=52</guid>
 
-					<description><![CDATA[今日の進捗 今日は を行いました。 main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であればGameover画面を表示するように設定し ... <a title="ボタンとタイトル画像を作成した" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/" aria-label="Read more about ボタンとタイトル画像を作成した">続きを読む</a>]]></description>
+					<description><![CDATA[今日の進捗 今日は を行いました。 main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であればGameover画面を表示するように設定し [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">今日の進捗</h2>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png" alt="" class="wp-image-54" style="width:506px;height:638px" width="506" height="638" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png 600w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1-238x300.png 238w" sizes="(max-width: 506px) 100vw, 506px" /></figure></div>
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png" alt="" class="wp-image-54" style="aspect-ratio:506/638" width="506" height="638" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png 600w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1-238x300.png 238w" sizes="(max-width: 506px) 100vw, 506px" /></figure>
+
 
 
 <p>今日は</p>
@@ -711,7 +713,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 				<category><![CDATA[takoyakieatgame]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=41</guid>
 
-					<description><![CDATA[今日やったこと ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。 とりあえず、いろいろ記事をあさっていて→ https://inwans.com/enchantjs-useful-tech ... <a title="連想配列にしてみた" class="read-more" href="https://iwatanabee.github.io/test-blog/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/" aria-label="Read more about 連想配列にしてみた">続きを読む</a>]]></description>
+					<description><![CDATA[今日やったこと ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。 とりあえず、いろいろ記事をあさっていて→ https://inwans.com/enchantjs-useful-tech [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">今日やったこと</h2>
 
@@ -801,7 +803,7 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 				<category><![CDATA[takoyakieatgame]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=18</guid>
 
-					<description><![CDATA[作ろうと思った経緯 友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。 大学では少しプログラミングをかじっているので、いいアウトプットになると思って、今回制作しました。 今回は以下のサ ... <a title="今までやってたこと" class="read-more" href="https://iwatanabee.github.io/test-blog/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/" aria-label="Read more about 今までやってたこと">続きを読む</a>]]></description>
+					<description><![CDATA[作ろうと思った経緯 友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。 大学では少しプログラミングをかじっているので、いいアウトプットになると思って、今回制作しました。 今回は以下のサ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <h2 class="wp-block-heading">作ろうと思った経緯</h2>
 
@@ -839,17 +841,17 @@ Finished in 5.12 seconds (files took 4.04 seconds to load)
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png" alt="" class="wp-image-20" style="width:251px;height:312px" width="251" height="312" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-241x300.png 241w" sizes="(max-width: 251px) 100vw, 251px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png" alt="" class="wp-image-20" style="aspect-ratio:251/312" width="251" height="312" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-241x300.png 241w" sizes="(max-width: 251px) 100vw, 251px" /></figure>
 
 
 
-<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png" alt="" class="wp-image-23" style="width:247px;height:303px" width="247" height="303" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png 531w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2-244x300.png 244w" sizes="(max-width: 247px) 100vw, 247px" /></figure>
-</div></div>
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png" alt="" class="wp-image-23" style="aspect-ratio:247/303" width="247" height="303" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png 531w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2-244x300.png 244w" sizes="(max-width: 247px) 100vw, 247px" /></figure>
+</div>
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png" alt="" class="wp-image-24" style="width:248px;height:306px" width="248" height="306" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3-243x300.png 243w" sizes="(max-width: 248px) 100vw, 248px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png" alt="" class="wp-image-24" style="aspect-ratio:248/306" width="248" height="306" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3-243x300.png 243w" sizes="(max-width: 248px) 100vw, 248px" /></figure>
 
 
 

@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>takoyakieatgame &#8211; 情報系大学生の開発日記</title>
+	<title>takoyakieatgame  |  情報系大学生の開発日記</title>
 	<atom:link href="https://iwatanabee.github.io/test-blog/category/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/%E3%82%B2%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA%E9%80%B2%E6%8D%97/js/takoyakieatgame/feed/" rel="self" type="application/rss+xml" />
 	<link>https://iwatanabee.github.io/test-blog/</link>
 	<description>のんびり生きてきた人間がのんびり開発をしていく進捗ブログ</description>
@@ -29,13 +29,21 @@
 				<category><![CDATA[takoyakieatgame]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=52</guid>
 
-					<description><![CDATA[今日の進捗 今日は を行いました。 main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であればGameover画面を表示するように設定し ... <a title="ボタンとタイトル画像を作成した" class="read-more" href="https://iwatanabee.github.io/test-blog/%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%e7%94%bb%e5%83%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f/" aria-label="Read more about ボタンとタイトル画像を作成した">続きを読む</a>]]></description>
+					<description><![CDATA[目次 今日の進捗これからやっていきたいこと 今日の進捗 今日は を行いました。 main画面(ゲームをする画面)から結果の画面に移るときに、if文を使って分岐をさせて、レベル5以上であればClear画面を、それ以外であれ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">今日の進捗</h2>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">今日の進捗</a></li><li><a href="#toc2" tabindex="0">これからやっていきたいこと</a></li></ol>
+    </div>
+  </div>
+
+<h2 class="wp-block-heading"><span id="toc1">今日の進捗</span></h2>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img fetchpriority="high" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png" alt="" class="wp-image-54" style="width:506px;height:638px" width="506" height="638" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png 600w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1-238x300.png 238w" sizes="(max-width: 506px) 100vw, 506px" /></figure></div>
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img fetchpriority="high" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png" alt="" class="wp-image-54" style="aspect-ratio:506/638" width="506" height="638" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1.png 600w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/Untitled-1-238x300.png 238w" sizes="(max-width: 506px) 100vw, 506px" /></figure>
+
 
 
 <p>今日は</p>
@@ -108,7 +116,7 @@
 
 
 
-<h2 class="wp-block-heading"><strong>これからやっていきたいこと</strong></h2>
+<h2 class="wp-block-heading"><span id="toc2">これからやっていきたいこと</span></h2>
 
 
 
@@ -146,9 +154,16 @@
 				<category><![CDATA[takoyakieatgame]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=41</guid>
 
-					<description><![CDATA[今日やったこと ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。 とりあえず、いろいろ記事をあさっていて→ https://inwans.com/enchantjs-useful-tech ... <a title="連想配列にしてみた" class="read-more" href="https://iwatanabee.github.io/test-blog/%e9%80%a3%e6%83%b3%e9%85%8d%e5%88%97%e3%81%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/" aria-label="Read more about 連想配列にしてみた">続きを読む</a>]]></description>
+					<description><![CDATA[目次 今日やったこと参考にしたもの 今日やったこと ブログをつくるのに時間を取られてしまったので、今日はあまりコードが書けなかった。 とりあえず、いろいろ記事をあさっていて→ https://inwans.com/enc [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">今日やったこと</h2>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">今日やったこと</a></li><li><a href="#toc2" tabindex="0">参考にしたもの</a></li></ol>
+    </div>
+  </div>
+
+<h2 class="wp-block-heading"><span id="toc1">今日やったこと</span></h2>
 
 
 
@@ -208,7 +223,7 @@
 
 
 
-<h2 class="wp-block-heading">参考にしたもの</h2>
+<h2 class="wp-block-heading"><span id="toc2">参考にしたもの</span></h2>
 
 
 
@@ -236,9 +251,16 @@
 				<category><![CDATA[takoyakieatgame]]></category>
 		<guid isPermaLink="false">https://iwatanabee.github.io/test-blog/?p=18</guid>
 
-					<description><![CDATA[作ろうと思った経緯 友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。 大学では少しプログラミングをかじっているので、いいアウトプットになると思って、今回制作しました。 今回は以下のサ ... <a title="今までやってたこと" class="read-more" href="https://iwatanabee.github.io/test-blog/%e4%bb%8a%e3%81%be%e3%81%a7%e3%82%84%e3%81%a3%e3%81%a6%e3%81%9f%e3%81%93%e3%81%a8/" aria-label="Read more about 今までやってたこと">続きを読む</a>]]></description>
+					<description><![CDATA[目次 作ろうと思った経緯ゲームの内容今までやっていたことこれからやっていきたいこと 作ろうと思った経緯 友達がjsでブラウザゲーームを作っていて、おもしろそうだなぁと思ったのがきっかけです。 大学では少しプログラミングを [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">作ろうと思った経緯</h2>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">作ろうと思った経緯</a></li><li><a href="#toc2" tabindex="0">ゲームの内容</a></li><li><a href="#toc3" tabindex="0">今までやっていたこと</a></li><li><a href="#toc4" tabindex="0">これからやっていきたいこと</a></li></ol>
+    </div>
+  </div>
+
+<h2 class="wp-block-heading"><span id="toc1">作ろうと思った経緯</span></h2>
 
 
 
@@ -258,7 +280,7 @@
 
 
 
-<h2 class="wp-block-heading">ゲームの内容</h2>
+<h2 class="wp-block-heading"><span id="toc2">ゲームの内容</span></h2>
 
 
 
@@ -274,21 +296,21 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png" alt="" class="wp-image-20" style="width:251px;height:312px" width="251" height="312" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-241x300.png 241w" sizes="(max-width: 251px) 100vw, 251px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png" alt="" class="wp-image-20" style="aspect-ratio:251/312" width="251" height="312" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-241x300.png 241w" sizes="(max-width: 251px) 100vw, 251px" /></figure>
 
 
 
-<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png" alt="" class="wp-image-23" style="width:247px;height:303px" width="247" height="303" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png 531w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2-244x300.png 244w" sizes="(max-width: 247px) 100vw, 247px" /></figure>
-</div></div>
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png" alt="" class="wp-image-23" style="aspect-ratio:247/303" width="247" height="303" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2.png 531w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-2-244x300.png 244w" sizes="(max-width: 247px) 100vw, 247px" /></figure>
+</div>
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png" alt="" class="wp-image-24" style="width:248px;height:306px" width="248" height="306" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3-243x300.png 243w" sizes="(max-width: 248px) 100vw, 248px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png" alt="" class="wp-image-24" style="aspect-ratio:248/306" width="248" height="306" srcset="https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3.png 528w, https://iwatanabee.github.io/test-blog/wp-content/uploads/2022/12/image-3-243x300.png 243w" sizes="(max-width: 248px) 100vw, 248px" /></figure>
 
 
 
-<h2 class="wp-block-heading">今までやっていたこと</h2>
+<h2 class="wp-block-heading"><span id="toc3">今までやっていたこと</span></h2>
 
 
 
@@ -375,7 +397,7 @@ tweetBtn.ontouchend = function () {
 
 
 
-<h2 class="wp-block-heading">これからやっていきたいこと</h2>
+<h2 class="wp-block-heading"><span id="toc4">これからやっていきたいこと</span></h2>
 
 
 
