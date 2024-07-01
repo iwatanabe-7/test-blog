@@ -85,6 +85,16 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js?ver=3.0.1" id="jquery-migrate-js"></script>
 <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+<script>
+    let lenis = new Lenis();
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  </script>
 
 <!-- Site Kit によって追加された Google タグ（gtag.js）スニペット -->
 
