@@ -13,4 +13,8 @@ Wordpress Github Pagesで作った、技術ブログ。
 ## デプロイするときに気をつけること
 ・ github pages が対応しているWordpressのテーマを使って制作しないと、デプロイできない。
 Wordpress　「github pages」で対応しているテーマでブログを作成→wordpressのプラグインの「Simply Static」で静的化→デプロイ
-・ Simply Static のURLを「https://iwatanabee.github.io)」みたいにする
+・ Simply Static のURLを「https://iwatanabee.github.io/)」みたいにする
+
+<img width="750" alt="スクリーンショット 2024-08-10 2 29 10" src="https://github.com/user-attachments/assets/76983d24-5844-4d61-9815-7361dc40257c">
+
+<img width="733" alt="スクリーンショット 2024-08-10 2 29 30" src="https://github.com/user-attachments/assets/99c69182-150b-452d-86db-f549cb60c79a">
