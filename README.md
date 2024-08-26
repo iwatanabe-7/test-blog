@@ -18,6 +18,9 @@ Wordpress　「github pages」で対応しているテーマでブログを作�
 ・ https://web.skipjack.tokyo/php/xampp-ssl/ ssl化を行う
 ・ カテゴリーなどのURL設定を半角英数字にしないとURLがおかしくなるので、Simply static で静的化した時に文字化けが起こる
 ![image](https://github.com/user-attachments/assets/35ab2b54-f20f-4a38-82ee-1f7190a9748e)
+・文字化け対策で以下のことをやる
+![image](https://github.com/user-attachments/assets/e646fb48-e02d-4519-baf7-6c6e2cfa1bb7)
+
 
 
 <img width="750" alt="スクリーンショット 2024-08-10 2 29 10" src="https://github.com/user-attachments/assets/76983d24-5844-4d61-9815-7361dc40257c">
